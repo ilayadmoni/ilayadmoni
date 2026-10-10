@@ -4,9 +4,9 @@
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ilay_Admoni-8EA3C8?style=flat-square&labelColor=6B7486&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/ilay-admoni-11010145252572577252)
-[![Email](https://img.shields.io/badge/Email-ilayadmoni9%40gmail.com-C9A296?style=flat-square&labelColor=6B7486&logo=gmail&logoColor=white)](mailto:ilayadmoni9@gmail.com)
-[![HeartNote](https://img.shields.io/badge/Live_project-heartnote.co.il-9DB8A3?style=flat-square&labelColor=6B7486&logo=googlechrome&logoColor=white)](https://www.heartnote.co.il)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ilay_Admoni-3B4A66?style=flat-square&labelColor=1F232B&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/ilay-admoni-11010145252572577252)
+[![Email](https://img.shields.io/badge/Email-ilayadmoni9%40gmail.com-5A3F3C?style=flat-square&labelColor=1F232B&logo=gmail&logoColor=white)](mailto:ilayadmoni9@gmail.com)
+[![HeartNote](https://img.shields.io/badge/Live_project-heartnote.co.il-34493D?style=flat-square&labelColor=1F232B&logo=googlechrome&logoColor=white)](https://www.heartnote.co.il)
 
 </div>
 
@@ -70,49 +70,49 @@ greeting cards, **live in production**. I migrated it from Supabase + Vercel to 
 
 <p>
 <b>Languages</b><br/>
-<img src="https://img.shields.io/badge/Java-EEEBE6?style=flat-square&logo=openjdk&logoColor=5D6677" alt="Java"/>
-<img src="https://img.shields.io/badge/TypeScript-EEEBE6?style=flat-square&logo=typescript&logoColor=5D6677" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Python-EEEBE6?style=flat-square&logo=python&logoColor=5D6677" alt="Python"/>
-<img src="https://img.shields.io/badge/PowerShell-EEEBE6?style=flat-square&logo=gnubash&logoColor=5D6677" alt="PowerShell"/>
-<img src="https://img.shields.io/badge/SQL-EEEBE6?style=flat-square&logo=postgresql&logoColor=5D6677" alt="SQL"/>
+<img src="https://img.shields.io/badge/Java-1F232B?style=flat-square&logo=openjdk&logoColor=A3AAB8" alt="Java"/>
+<img src="https://img.shields.io/badge/TypeScript-1F232B?style=flat-square&logo=typescript&logoColor=A3AAB8" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Python-1F232B?style=flat-square&logo=python&logoColor=A3AAB8" alt="Python"/>
+<img src="https://img.shields.io/badge/PowerShell-1F232B?style=flat-square&logo=gnubash&logoColor=A3AAB8" alt="PowerShell"/>
+<img src="https://img.shields.io/badge/SQL-1F232B?style=flat-square&logo=postgresql&logoColor=A3AAB8" alt="SQL"/>
 </p>
 
 <p>
 <b>Frontend & backend</b><br/>
-<img src="https://img.shields.io/badge/React-EEEBE6?style=flat-square&logo=react&logoColor=5D6677" alt="React"/>
-<img src="https://img.shields.io/badge/Next.js-EEEBE6?style=flat-square&logo=nextdotjs&logoColor=5D6677" alt="Next.js"/>
-<img src="https://img.shields.io/badge/Spring_Boot-EEEBE6?style=flat-square&logo=springboot&logoColor=5D6677" alt="Spring Boot"/>
-<img src="https://img.shields.io/badge/Flask-EEEBE6?style=flat-square&logo=flask&logoColor=5D6677" alt="Flask"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-EEEBE6?style=flat-square&logo=tailwindcss&logoColor=5D6677" alt="Tailwind CSS"/>
-<img src="https://img.shields.io/badge/REST_APIs-EEEBE6?style=flat-square&logo=postman&logoColor=5D6677" alt="REST APIs"/>
+<img src="https://img.shields.io/badge/React-1F232B?style=flat-square&logo=react&logoColor=A3AAB8" alt="React"/>
+<img src="https://img.shields.io/badge/Next.js-1F232B?style=flat-square&logo=nextdotjs&logoColor=A3AAB8" alt="Next.js"/>
+<img src="https://img.shields.io/badge/Spring_Boot-1F232B?style=flat-square&logo=springboot&logoColor=A3AAB8" alt="Spring Boot"/>
+<img src="https://img.shields.io/badge/Flask-1F232B?style=flat-square&logo=flask&logoColor=A3AAB8" alt="Flask"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-1F232B?style=flat-square&logo=tailwindcss&logoColor=A3AAB8" alt="Tailwind CSS"/>
+<img src="https://img.shields.io/badge/REST_APIs-1F232B?style=flat-square&logo=postman&logoColor=A3AAB8" alt="REST APIs"/>
 </p>
 
 <p>
 <b>Data</b><br/>
-<img src="https://img.shields.io/badge/PostgreSQL-EEEBE6?style=flat-square&logo=postgresql&logoColor=5D6677" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/pgvector-EEEBE6?style=flat-square&logo=postgresql&logoColor=5D6677" alt="pgvector"/>
-<img src="https://img.shields.io/badge/MongoDB-EEEBE6?style=flat-square&logo=mongodb&logoColor=5D6677" alt="MongoDB"/>
-<img src="https://img.shields.io/badge/Prisma-EEEBE6?style=flat-square&logo=prisma&logoColor=5D6677" alt="Prisma"/>
+<img src="https://img.shields.io/badge/PostgreSQL-1F232B?style=flat-square&logo=postgresql&logoColor=A3AAB8" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/pgvector-1F232B?style=flat-square&logo=postgresql&logoColor=A3AAB8" alt="pgvector"/>
+<img src="https://img.shields.io/badge/MongoDB-1F232B?style=flat-square&logo=mongodb&logoColor=A3AAB8" alt="MongoDB"/>
+<img src="https://img.shields.io/badge/Prisma-1F232B?style=flat-square&logo=prisma&logoColor=A3AAB8" alt="Prisma"/>
 </p>
 
 <p>
 <b>Cloud & DevOps</b><br/>
-<img src="https://img.shields.io/badge/AWS-EEEBE6?style=flat-square&logo=amazonwebservices&logoColor=5D6677" alt="AWS"/>
-<img src="https://img.shields.io/badge/Docker-EEEBE6?style=flat-square&logo=docker&logoColor=5D6677" alt="Docker"/>
-<img src="https://img.shields.io/badge/Kubernetes-EEEBE6?style=flat-square&logo=kubernetes&logoColor=5D6677" alt="Kubernetes"/>
-<img src="https://img.shields.io/badge/OpenShift-EEEBE6?style=flat-square&logo=redhatopenshift&logoColor=5D6677" alt="OpenShift"/>
-<img src="https://img.shields.io/badge/Terraform-EEEBE6?style=flat-square&logo=terraform&logoColor=5D6677" alt="Terraform"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-EEEBE6?style=flat-square&logo=githubactions&logoColor=5D6677" alt="GitHub Actions"/>
-<img src="https://img.shields.io/badge/RHEL-EEEBE6?style=flat-square&logo=redhat&logoColor=5D6677" alt="RHEL"/>
-<img src="https://img.shields.io/badge/VMware-EEEBE6?style=flat-square&logo=vmware&logoColor=5D6677" alt="VMware"/>
-<img src="https://img.shields.io/badge/Git-EEEBE6?style=flat-square&logo=git&logoColor=5D6677" alt="Git"/>
+<img src="https://img.shields.io/badge/AWS-1F232B?style=flat-square&logo=amazonwebservices&logoColor=A3AAB8" alt="AWS"/>
+<img src="https://img.shields.io/badge/Docker-1F232B?style=flat-square&logo=docker&logoColor=A3AAB8" alt="Docker"/>
+<img src="https://img.shields.io/badge/Kubernetes-1F232B?style=flat-square&logo=kubernetes&logoColor=A3AAB8" alt="Kubernetes"/>
+<img src="https://img.shields.io/badge/OpenShift-1F232B?style=flat-square&logo=redhatopenshift&logoColor=A3AAB8" alt="OpenShift"/>
+<img src="https://img.shields.io/badge/Terraform-1F232B?style=flat-square&logo=terraform&logoColor=A3AAB8" alt="Terraform"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-1F232B?style=flat-square&logo=githubactions&logoColor=A3AAB8" alt="GitHub Actions"/>
+<img src="https://img.shields.io/badge/RHEL-1F232B?style=flat-square&logo=redhat&logoColor=A3AAB8" alt="RHEL"/>
+<img src="https://img.shields.io/badge/VMware-1F232B?style=flat-square&logo=vmware&logoColor=A3AAB8" alt="VMware"/>
+<img src="https://img.shields.io/badge/Git-1F232B?style=flat-square&logo=git&logoColor=A3AAB8" alt="Git"/>
 </p>
 
 <p>
 <b>AI development</b><br/>
-<img src="https://img.shields.io/badge/Claude_Code-EEEBE6?style=flat-square&logo=anthropic&logoColor=5D6677" alt="Claude Code"/>
-<img src="https://img.shields.io/badge/GitHub_Copilot-EEEBE6?style=flat-square&logo=githubcopilot&logoColor=5D6677" alt="GitHub Copilot"/>
-<img src="https://img.shields.io/badge/LLM_tool_calling_·_RAG-EEEBE6?style=flat-square&logo=openai&logoColor=5D6677" alt="LLM tool calling and RAG"/>
+<img src="https://img.shields.io/badge/Claude_Code-1F232B?style=flat-square&logo=anthropic&logoColor=A3AAB8" alt="Claude Code"/>
+<img src="https://img.shields.io/badge/GitHub_Copilot-1F232B?style=flat-square&logo=githubcopilot&logoColor=A3AAB8" alt="GitHub Copilot"/>
+<img src="https://img.shields.io/badge/LLM_tool_calling_·_RAG-1F232B?style=flat-square&logo=openai&logoColor=A3AAB8" alt="LLM tool calling and RAG"/>
 </p>
 
 ## 🎓 Education

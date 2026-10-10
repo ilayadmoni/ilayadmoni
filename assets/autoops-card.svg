@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" aria-label="AutoOps: AI-assisted, secure Linux automation">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5f8f4"/><stop offset="1" stop-color="#e8f0e7"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14181a"/><stop offset="1" stop-color="#1a2320"/></linearGradient>
     <style>
       .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
       .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
@@ -8,14 +8,14 @@
       @media (prefers-reduced-motion: reduce) { .pulse { animation: none } }
     </style>
   </defs>
-  <rect x="1" y="1" width="638" height="298" rx="20" fill="url(#bg)" stroke="#6e9f7e" stroke-opacity="0.35" stroke-width="1.5"/>
-  <g transform="translate(498 50) scale(.72)" fill="none" stroke="#6e9f7e" stroke-width="5" stroke-linecap="round" opacity="0.9">
+  <rect x="1" y="1" width="638" height="298" rx="20" fill="url(#bg)" stroke="#8fc4a0" stroke-opacity="0.35" stroke-width="1.5"/>
+  <g transform="translate(498 50) scale(.72)" fill="none" stroke="#8fc4a0" stroke-width="5" stroke-linecap="round" opacity="0.9">
     <path d="M0 40 H40 M64 40 H84 Q96 40 96 28 V10 Q96 0 106 0 H118 M64 40 H130 M84 40 Q96 40 96 52 V70 Q96 80 106 80 H122"/>
-    <circle class="pulse" cx="-8" cy="40" r="10" fill="#f2f6f1"/><circle class="pulse" cx="52" cy="40" r="10" fill="#f2f6f1"/>
-    <circle class="pulse" cx="128" cy="0" r="10" fill="#f2f6f1"/><circle class="pulse" cx="140" cy="40" r="10" fill="#f2f6f1"/><circle class="pulse" cx="132" cy="80" r="10" fill="#f2f6f1"/>
+    <circle class="pulse" cx="-8" cy="40" r="10" fill="#161c1a"/><circle class="pulse" cx="52" cy="40" r="10" fill="#161c1a"/>
+    <circle class="pulse" cx="128" cy="0" r="10" fill="#161c1a"/><circle class="pulse" cx="140" cy="40" r="10" fill="#161c1a"/><circle class="pulse" cx="132" cy="80" r="10" fill="#161c1a"/>
   </g>
-  <text x="40" y="78" class="sans" font-size="34" font-weight="800" fill="#2f3a4a" letter-spacing="-0.8">AutoOps</text>
-  <text x="40" y="108" class="sans" font-size="16" font-weight="600" fill="#6e9f7e">AI-assisted, secure Linux automation</text>
-  <text x="40" y="150" class="sans" font-size="16" fill="#5d6677">Approved Command Bank, typed workflows and a single</text><text x="40" y="176" class="sans" font-size="16" fill="#5d6677">execution engine with preflight checks, approvals and</text><text x="40" y="202" class="sans" font-size="16" fill="#5d6677">pinned SSH host keys. The AI proposes, never executes.</text>
-  <g class="sans" font-size="13" font-weight="600"><g transform="translate(40 236)"><rect width="85" height="28" rx="14" fill="#dce8db"/><text x="42.5" y="19" text-anchor="middle" fill="#3f6b4e">Java 21</text></g><g transform="translate(133 236)"><rect width="118" height="28" rx="14" fill="#dce8db"/><text x="59.0" y="19" text-anchor="middle" fill="#3f6b4e">Spring Boot</text></g><g transform="translate(259 236)"><rect width="69" height="28" rx="14" fill="#dce8db"/><text x="34.5" y="19" text-anchor="middle" fill="#3f6b4e">React</text></g><g transform="translate(336 236)"><rect width="110" height="28" rx="14" fill="#dce8db"/><text x="55.0" y="19" text-anchor="middle" fill="#3f6b4e">PostgreSQL</text></g><g transform="translate(454 236)"><rect width="93" height="28" rx="14" fill="#dce8db"/><text x="46.5" y="19" text-anchor="middle" fill="#3f6b4e">AI / RAG</text></g></g>
+  <text x="40" y="78" class="sans" font-size="34" font-weight="800" fill="#ecebe8" letter-spacing="-0.8">AutoOps</text>
+  <text x="40" y="108" class="sans" font-size="16" font-weight="600" fill="#8fc4a0">AI-assisted, secure Linux automation</text>
+  <text x="40" y="150" class="sans" font-size="16" fill="#a3aab8">Approved Command Bank, typed workflows and a single</text><text x="40" y="176" class="sans" font-size="16" fill="#a3aab8">execution engine with preflight checks, approvals and</text><text x="40" y="202" class="sans" font-size="16" fill="#a3aab8">pinned SSH host keys. The AI proposes, never executes.</text>
+  <g class="sans" font-size="13" font-weight="600"><g transform="translate(40 236)"><rect width="85" height="28" rx="14" fill="#24332b"/><text x="42.5" y="19" text-anchor="middle" fill="#a7d3b3">Java 21</text></g><g transform="translate(133 236)"><rect width="118" height="28" rx="14" fill="#24332b"/><text x="59.0" y="19" text-anchor="middle" fill="#a7d3b3">Spring Boot</text></g><g transform="translate(259 236)"><rect width="69" height="28" rx="14" fill="#24332b"/><text x="34.5" y="19" text-anchor="middle" fill="#a7d3b3">React</text></g><g transform="translate(336 236)"><rect width="110" height="28" rx="14" fill="#24332b"/><text x="55.0" y="19" text-anchor="middle" fill="#a7d3b3">PostgreSQL</text></g><g transform="translate(454 236)"><rect width="93" height="28" rx="14" fill="#24332b"/><text x="46.5" y="19" text-anchor="middle" fill="#a7d3b3">AI / RAG</text></g></g>
 </svg>

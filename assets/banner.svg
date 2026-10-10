@@ -3,8 +3,8 @@
   <desc id="d">Ilay Admoni — Software Engineer and Computer Science student building full-stack and automation systems.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#faf8f5"/>
-      <stop offset="1" stop-color="#f1eee9"/>
+      <stop offset="0" stop-color="#14171e"/>
+      <stop offset="1" stop-color="#1c2029"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#8ea3c8"/>
@@ -13,7 +13,7 @@
     </linearGradient>
     <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="40"/></filter>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#5b6474" flood-opacity="0.12"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
     </filter>
     <clipPath id="frame"><rect width="1280" height="400" rx="24"/></clipPath>
     <style>
@@ -37,40 +37,40 @@
   <g clip-path="url(#frame)">
     <rect width="1280" height="400" fill="url(#bg)"/>
     <g filter="url(#soft)">
-      <circle class="drift" cx="210" cy="90" r="170" fill="#dbe4f1"/>
-      <circle class="drift d2" cx="1150" cy="340" r="180" fill="#f3ddd5"/>
-      <circle class="drift d3" cx="760" cy="40" r="140" fill="#e4dff0"/>
-      <circle class="drift" cx="560" cy="420" r="150" fill="#dfe9e1"/>
+      <circle class="drift" cx="210" cy="90" r="170" fill="#2b3a5c" opacity="0.7"/>
+      <circle class="drift d2" cx="1150" cy="340" r="180" fill="#4a3236" opacity="0.7"/>
+      <circle class="drift d3" cx="760" cy="40" r="140" fill="#3a3358" opacity="0.6"/>
+      <circle class="drift" cx="560" cy="420" r="150" fill="#26403a" opacity="0.6"/>
     </g>
 
     <!-- Intro -->
-    <text x="72" y="108" class="sans" font-size="22" fill="#7a8394">Hi there, I'm</text>
-    <text x="68" y="186" class="sans" font-size="78" font-weight="700" fill="#2f3a4a" letter-spacing="-2">Ilay Admoni</text>
+    <text x="72" y="108" class="sans" font-size="22" fill="#8b93a3">Hi there, I'm</text>
+    <text x="68" y="186" class="sans" font-size="78" font-weight="700" fill="#ecebe8" letter-spacing="-2">Ilay Admoni</text>
     <rect x="72" y="206" width="120" height="4" rx="2" fill="url(#accent)"/>
 
     <g class="sans" font-size="29" font-weight="600">
-      <text class="role ro1" x="72" y="256" fill="#6f84ad">Software Engineer</text>
-      <text class="role ro2" x="72" y="256" fill="#8d7fb5">Full-Stack Developer</text>
-      <text class="role ro3" x="72" y="256" fill="#c08a7b">Infrastructure &amp; Automation</text>
+      <text class="role ro1" x="72" y="256" fill="#9fb3d9">Software Engineer</text>
+      <text class="role ro2" x="72" y="256" fill="#b8a9dc">Full-Stack Developer</text>
+      <text class="role ro3" x="72" y="256" fill="#dcb2a4">Infrastructure &amp; Automation</text>
     </g>
 
-    <text x="72" y="306" class="sans" font-size="18" fill="#5d6677">B.Sc. Computer Science · The Academic College of Tel Aviv-Yafo</text>
-    <text x="72" y="336" class="sans" font-size="18" fill="#5d6677">Full-stack · Cloud &amp; DevOps · AI-assisted automation</text>
+    <text x="72" y="306" class="sans" font-size="18" fill="#a3aab8">B.Sc. Computer Science · The Academic College of Tel Aviv-Yafo</text>
+    <text x="72" y="336" class="sans" font-size="18" fill="#a3aab8">Full-stack · Cloud &amp; DevOps · AI-assisted automation</text>
 
     <!-- Code card -->
     <g transform="translate(760 66)" filter="url(#shadow)">
-      <rect width="448" height="270" rx="18" fill="#ffffff" fill-opacity="0.82" stroke="#e6e2dc"/>
+      <rect width="448" height="270" rx="18" fill="#191d25" fill-opacity="0.92" stroke="#2c323d"/>
       <circle cx="26" cy="24" r="5.5" fill="#efb6ad"/><circle cx="44" cy="24" r="5.5" fill="#f1d7a6"/><circle cx="62" cy="24" r="5.5" fill="#b9d8bd"/>
-      <text x="224" y="29" text-anchor="middle" class="mono" font-size="13" fill="#9aa1ad">ilay.ts</text>
-      <line x1="0" y1="46" x2="448" y2="46" stroke="#eeebe6"/>
+      <text x="224" y="29" text-anchor="middle" class="mono" font-size="13" fill="#6f7686">ilay.ts</text>
+      <line x1="0" y1="46" x2="448" y2="46" stroke="#262b35"/>
       <g class="mono" font-size="15" xml:space="preserve">
-        <text x="26" y="84"><tspan fill="#9b88c4">const</tspan><tspan fill="#3d4757"> ilay </tspan><tspan fill="#8d97a8">=</tspan><tspan fill="#3d4757"> {</tspan></text>
-        <text x="54" y="112"><tspan fill="#6f84ad">studying</tspan><tspan fill="#8d97a8">: </tspan><tspan fill="#6f9a7a">"B.Sc. Computer Science"</tspan><tspan fill="#8d97a8">,</tspan></text>
-        <text x="54" y="140"><tspan fill="#6f84ad">shipped </tspan><tspan fill="#8d97a8">: </tspan><tspan fill="#6f9a7a">"heartnote.co.il"</tspan><tspan fill="#8d97a8">,</tspan></text>
-        <text x="54" y="168"><tspan fill="#6f84ad">building</tspan><tspan fill="#8d97a8">: [</tspan><tspan fill="#6f9a7a">"AutoOps"</tspan><tspan fill="#8d97a8">, </tspan><tspan fill="#6f9a7a">"HeartNote"</tspan><tspan fill="#8d97a8">],</tspan></text>
-        <text x="54" y="196"><tspan fill="#6f84ad">stack   </tspan><tspan fill="#8d97a8">: [</tspan><tspan fill="#c08a7b">Java</tspan><tspan fill="#8d97a8">, </tspan><tspan fill="#c08a7b">TS</tspan><tspan fill="#8d97a8">, </tspan><tspan fill="#c08a7b">Python</tspan><tspan fill="#8d97a8">, </tspan><tspan fill="#c08a7b">React</tspan><tspan fill="#8d97a8">],</tspan></text>
-        <text x="54" y="224"><tspan fill="#6f84ad">openTo  </tspan><tspan fill="#8d97a8">: </tspan><tspan fill="#b07a9a">"Student SWE roles"</tspan><tspan fill="#8d97a8">,</tspan></text>
-        <text x="26" y="252"><tspan fill="#3d4757">};</tspan><tspan class="cursor" fill="#a99cc9"> ▍</tspan></text>
+        <text x="26" y="84"><tspan fill="#b8a9dc">const</tspan><tspan fill="#e2e4ea"> ilay </tspan><tspan fill="#7c8496">=</tspan><tspan fill="#e2e4ea"> {</tspan></text>
+        <text x="54" y="112"><tspan fill="#9fb3d9">studying</tspan><tspan fill="#7c8496">: </tspan><tspan fill="#a7cfae">"B.Sc. Computer Science"</tspan><tspan fill="#7c8496">,</tspan></text>
+        <text x="54" y="140"><tspan fill="#9fb3d9">shipped </tspan><tspan fill="#7c8496">: </tspan><tspan fill="#a7cfae">"heartnote.co.il"</tspan><tspan fill="#7c8496">,</tspan></text>
+        <text x="54" y="168"><tspan fill="#9fb3d9">building</tspan><tspan fill="#7c8496">: [</tspan><tspan fill="#a7cfae">"AutoOps"</tspan><tspan fill="#7c8496">, </tspan><tspan fill="#a7cfae">"HeartNote"</tspan><tspan fill="#7c8496">],</tspan></text>
+        <text x="54" y="196"><tspan fill="#9fb3d9">stack   </tspan><tspan fill="#7c8496">: [</tspan><tspan fill="#e3b79f">Java</tspan><tspan fill="#7c8496">, </tspan><tspan fill="#e3b79f">TS</tspan><tspan fill="#7c8496">, </tspan><tspan fill="#e3b79f">Python</tspan><tspan fill="#7c8496">, </tspan><tspan fill="#e3b79f">React</tspan><tspan fill="#7c8496">],</tspan></text>
+        <text x="54" y="224"><tspan fill="#9fb3d9">openTo  </tspan><tspan fill="#7c8496">: </tspan><tspan fill="#d8a6c4">"Student SWE roles"</tspan><tspan fill="#7c8496">,</tspan></text>
+        <text x="26" y="252"><tspan fill="#e2e4ea">};</tspan><tspan class="cursor" fill="#a99cc9"> ▍</tspan></text>
       </g>
     </g>
   </g>
