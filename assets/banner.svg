@@ -1,43 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="t d">
   <title id="t">Ilay Admoni</title>
-  <desc id="d">Ilay Admoni — Software Engineer, Computer Science student building full-stack and automation systems.</desc>
+  <desc id="d">Ilay Admoni — Software Engineer and Computer Science student building full-stack and automation systems.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/>
-      <stop offset="1" stop-color="#141a33"/>
+      <stop offset="0" stop-color="#faf8f5"/>
+      <stop offset="1" stop-color="#f1eee9"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7c9cff"/>
-      <stop offset="0.55" stop-color="#b48cff"/>
-      <stop offset="1" stop-color="#ff9a85"/>
+      <stop offset="0" stop-color="#8ea3c8"/>
+      <stop offset="0.5" stop-color="#a99cc9"/>
+      <stop offset="1" stop-color="#d9a89a"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#7c9cff" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#7c9cff" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#ff9a85" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#ff9a85" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#26304f"/>
-    </pattern>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="40"/></filter>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#5b6474" flood-opacity="0.12"/>
+    </filter>
     <clipPath id="frame"><rect width="1280" height="400" rx="24"/></clipPath>
     <style>
       .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-      .drift { animation: drift 12s ease-in-out infinite; }
-      .d2 { animation-delay: -6s }
-      @keyframes drift { 0%,100% { transform: translate(0,0) } 50% { transform: translate(40px,-20px) } }
-      .role { opacity: 0; animation: role 9s infinite; }
-      .ro2 { animation-delay: 3s } .ro3 { animation-delay: 6s }
-      @keyframes role { 0% { opacity: 0; transform: translateY(10px) } 4%,30% { opacity: 1; transform: none } 34%,100% { opacity: 0; transform: translateY(-10px) } }
-      .cursor { animation: blink 1s steps(1) infinite; }
+      .drift { animation: drift 14s ease-in-out infinite; }
+      .d2 { animation-delay: -5s } .d3 { animation-delay: -9s }
+      @keyframes drift { 0%,100% { transform: translate(0,0) } 50% { transform: translate(30px,-18px) } }
+      .role { opacity: 0; animation: role 10.5s infinite; }
+      .ro2 { animation-delay: 3.5s } .ro3 { animation-delay: 7s }
+      @keyframes role { 0% { opacity: 0; transform: translateY(8px) } 5%,29% { opacity: 1; transform: none } 33%,100% { opacity: 0; transform: translateY(-8px) } }
+      .cursor { animation: blink 1.2s steps(1) infinite; }
       @keyframes blink { 50% { opacity: 0 } }
-      .wave { animation: wave 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: 70% 80%; }
-      @keyframes wave { 0%,60%,100% { transform: rotate(0) } 10%,30% { transform: rotate(14deg) } 20%,40% { transform: rotate(-8deg) } }
       @media (prefers-reduced-motion: reduce) {
-        .drift, .cursor, .wave { animation: none; }
+        .drift, .cursor { animation: none; }
         .role { animation: none; } .ro1 { opacity: 1 }
       }
     </style>
@@ -45,39 +36,41 @@
 
   <g clip-path="url(#frame)">
     <rect width="1280" height="400" fill="url(#bg)"/>
-    <rect width="1280" height="400" fill="url(#dots)" opacity="0.7"/>
-    <circle class="drift" cx="260" cy="120" r="280" fill="url(#glowA)"/>
-    <circle class="drift d2" cx="1120" cy="330" r="260" fill="url(#glowB)"/>
-
-    <!-- Intro -->
-    <text x="72" y="110" class="sans" font-size="24" fill="#aab4d4">Hi there <tspan class="wave" font-size="26">👋</tspan>  I'm</text>
-    <text x="68" y="190" class="sans" font-size="82" font-weight="800" fill="#ffffff" letter-spacing="-2.5">Ilay Admoni</text>
-    <rect x="72" y="210" width="160" height="6" rx="3" fill="url(#accent)"/>
-
-    <g class="sans" font-size="32" font-weight="700">
-      <text class="role ro1" x="72" y="262" fill="url(#accent)">Software Engineer</text>
-      <text class="role ro2" x="72" y="262" fill="url(#accent)">Full-Stack Developer</text>
-      <text class="role ro3" x="72" y="262" fill="url(#accent)">Infrastructure &amp; Automation</text>
+    <g filter="url(#soft)">
+      <circle class="drift" cx="210" cy="90" r="170" fill="#dbe4f1"/>
+      <circle class="drift d2" cx="1150" cy="340" r="180" fill="#f3ddd5"/>
+      <circle class="drift d3" cx="760" cy="40" r="140" fill="#e4dff0"/>
+      <circle class="drift" cx="560" cy="420" r="150" fill="#dfe9e1"/>
     </g>
 
-    <text x="72" y="310" class="sans" font-size="19" fill="#c3cae3">B.Sc. Computer Science @ The Academic College of Tel Aviv-Yafo</text>
-    <text x="72" y="340" class="sans" font-size="19" fill="#c3cae3">Full-stack · Cloud &amp; DevOps · AI-assisted automation</text>
+    <!-- Intro -->
+    <text x="72" y="108" class="sans" font-size="22" fill="#7a8394">Hi there, I'm</text>
+    <text x="68" y="186" class="sans" font-size="78" font-weight="700" fill="#2f3a4a" letter-spacing="-2">Ilay Admoni</text>
+    <rect x="72" y="206" width="120" height="4" rx="2" fill="url(#accent)"/>
+
+    <g class="sans" font-size="29" font-weight="600">
+      <text class="role ro1" x="72" y="256" fill="#6f84ad">Software Engineer</text>
+      <text class="role ro2" x="72" y="256" fill="#8d7fb5">Full-Stack Developer</text>
+      <text class="role ro3" x="72" y="256" fill="#c08a7b">Infrastructure &amp; Automation</text>
+    </g>
+
+    <text x="72" y="306" class="sans" font-size="18" fill="#5d6677">B.Sc. Computer Science · The Academic College of Tel Aviv-Yafo</text>
+    <text x="72" y="336" class="sans" font-size="18" fill="#5d6677">Full-stack · Cloud &amp; DevOps · AI-assisted automation</text>
 
     <!-- Code card -->
-    <g transform="translate(756 58)">
-      <rect width="456" height="284" rx="18" fill="#0d1328" stroke="#2a3460" stroke-width="1.5"/>
-      <rect width="456" height="40" rx="18" fill="#141b38"/>
-      <rect y="22" width="456" height="18" fill="#141b38"/>
-      <circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
-      <text x="228" y="25" text-anchor="middle" class="mono" font-size="13" fill="#6f7aa3">ilay.ts</text>
+    <g transform="translate(760 66)" filter="url(#shadow)">
+      <rect width="448" height="270" rx="18" fill="#ffffff" fill-opacity="0.82" stroke="#e6e2dc"/>
+      <circle cx="26" cy="24" r="5.5" fill="#efb6ad"/><circle cx="44" cy="24" r="5.5" fill="#f1d7a6"/><circle cx="62" cy="24" r="5.5" fill="#b9d8bd"/>
+      <text x="224" y="29" text-anchor="middle" class="mono" font-size="13" fill="#9aa1ad">ilay.ts</text>
+      <line x1="0" y1="46" x2="448" y2="46" stroke="#eeebe6"/>
       <g class="mono" font-size="15" xml:space="preserve">
-        <text x="24" y="76"><tspan fill="#b48cff">const</tspan><tspan fill="#e6e9f5"> ilay </tspan><tspan fill="#7c9cff">=</tspan><tspan fill="#e6e9f5"> {</tspan></text>
-        <text x="52" y="104"><tspan fill="#7fd1ff">studying</tspan><tspan fill="#e6e9f5">: </tspan><tspan fill="#a5e8a0">"B.Sc. Computer Science"</tspan><tspan fill="#e6e9f5">,</tspan></text>
-        <text x="52" y="132"><tspan fill="#7fd1ff">shipped </tspan><tspan fill="#e6e9f5">: </tspan><tspan fill="#a5e8a0">"heartnote.co.il · live"</tspan><tspan fill="#e6e9f5">,</tspan></text>
-        <text x="52" y="160"><tspan fill="#7fd1ff">building</tspan><tspan fill="#e6e9f5">: [</tspan><tspan fill="#a5e8a0">"AutoOps"</tspan><tspan fill="#e6e9f5">, </tspan><tspan fill="#a5e8a0">"HeartNote"</tspan><tspan fill="#e6e9f5">],</tspan></text>
-        <text x="52" y="188"><tspan fill="#7fd1ff">stack   </tspan><tspan fill="#e6e9f5">: [</tspan><tspan fill="#ffcb8b">Java</tspan><tspan fill="#e6e9f5">, </tspan><tspan fill="#ffcb8b">TS</tspan><tspan fill="#e6e9f5">, </tspan><tspan fill="#ffcb8b">Python</tspan><tspan fill="#e6e9f5">, </tspan><tspan fill="#ffcb8b">React</tspan><tspan fill="#e6e9f5">],</tspan></text>
-        <text x="52" y="216"><tspan fill="#7fd1ff">openTo  </tspan><tspan fill="#e6e9f5">: </tspan><tspan fill="#ff9a85">"Student SWE roles"</tspan><tspan fill="#e6e9f5">,</tspan></text>
-        <text x="24" y="244"><tspan fill="#e6e9f5">};</tspan><tspan class="cursor" fill="#7c9cff"> ▍</tspan></text>
+        <text x="26" y="84"><tspan fill="#9b88c4">const</tspan><tspan fill="#3d4757"> ilay </tspan><tspan fill="#8d97a8">=</tspan><tspan fill="#3d4757"> {</tspan></text>
+        <text x="54" y="112"><tspan fill="#6f84ad">studying</tspan><tspan fill="#8d97a8">: </tspan><tspan fill="#6f9a7a">"B.Sc. Computer Science"</tspan><tspan fill="#8d97a8">,</tspan></text>
+        <text x="54" y="140"><tspan fill="#6f84ad">shipped </tspan><tspan fill="#8d97a8">: </tspan><tspan fill="#6f9a7a">"heartnote.co.il"</tspan><tspan fill="#8d97a8">,</tspan></text>
+        <text x="54" y="168"><tspan fill="#6f84ad">building</tspan><tspan fill="#8d97a8">: [</tspan><tspan fill="#6f9a7a">"AutoOps"</tspan><tspan fill="#8d97a8">, </tspan><tspan fill="#6f9a7a">"HeartNote"</tspan><tspan fill="#8d97a8">],</tspan></text>
+        <text x="54" y="196"><tspan fill="#6f84ad">stack   </tspan><tspan fill="#8d97a8">: [</tspan><tspan fill="#c08a7b">Java</tspan><tspan fill="#8d97a8">, </tspan><tspan fill="#c08a7b">TS</tspan><tspan fill="#8d97a8">, </tspan><tspan fill="#c08a7b">Python</tspan><tspan fill="#8d97a8">, </tspan><tspan fill="#c08a7b">React</tspan><tspan fill="#8d97a8">],</tspan></text>
+        <text x="54" y="224"><tspan fill="#6f84ad">openTo  </tspan><tspan fill="#8d97a8">: </tspan><tspan fill="#b07a9a">"Student SWE roles"</tspan><tspan fill="#8d97a8">,</tspan></text>
+        <text x="26" y="252"><tspan fill="#3d4757">};</tspan><tspan class="cursor" fill="#a99cc9"> ▍</tspan></text>
       </g>
     </g>
   </g>

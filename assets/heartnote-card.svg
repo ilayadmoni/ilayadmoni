@@ -8,12 +8,12 @@
       @media (prefers-reduced-motion: reduce) { .pulse { animation: none } }
     </style>
   </defs>
-  <rect x="1" y="1" width="638" height="298" rx="20" fill="url(#bg)" stroke="#c9725c" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="1" y="1" width="638" height="298" rx="20" fill="url(#bg)" stroke="#c08a7b" stroke-opacity="0.35" stroke-width="1.5"/>
   <g transform="translate(560 76) scale(.9)">
-    <path class="pulse" d="M0 -21 C -9 -39 -39 -36 -39 -12 C -39 9 -15 24 0 39 C 15 24 39 9 39 -12 C 39 -36 9 -39 0 -21 Z" fill="#f1e6e1" stroke="#d4826f" stroke-width="5"/>
+    <path class="pulse" d="M0 -21 C -9 -39 -39 -36 -39 -12 C -39 9 -15 24 0 39 C 15 24 39 9 39 -12 C 39 -36 9 -39 0 -21 Z" fill="#f1e6e1" stroke="#d29d8f" stroke-width="5"/>
   </g>
-  <text x="40" y="78" class="sans" font-size="34" font-weight="800" fill="#1c2639" letter-spacing="-0.8">HeartNote</text>
-  <text x="40" y="108" class="sans" font-size="16" font-weight="600" fill="#c9725c">Production full-stack app · live on AWS</text>
+  <text x="40" y="78" class="sans" font-size="34" font-weight="800" fill="#2f3a4a" letter-spacing="-0.8">HeartNote</text>
+  <text x="40" y="108" class="sans" font-size="16" font-weight="600" fill="#c08a7b">Production full-stack app · live on AWS</text>
   <text x="40" y="150" class="sans" font-size="16" fill="#4a5568">Interactive, animated greeting cards in Hebrew, shared as</text><text x="40" y="176" class="sans" font-size="16" fill="#4a5568">a link. Migrated from Supabase + Vercel to Terraform-</text><text x="40" y="202" class="sans" font-size="16" fill="#4a5568">provisioned AWS with keyless OIDC + SSM deploys.</text>
-  <g class="sans" font-size="13" font-weight="600"><g transform="translate(40 236)"><rect width="85" height="28" rx="14" fill="#1c2639"/><text x="42.5" y="19" text-anchor="middle" fill="#ffffff">Next.js</text></g><g transform="translate(133 236)"><rect width="110" height="28" rx="14" fill="#1c2639"/><text x="55.0" y="19" text-anchor="middle" fill="#ffffff">TypeScript</text></g><g transform="translate(251 236)"><rect width="110" height="28" rx="14" fill="#1c2639"/><text x="55.0" y="19" text-anchor="middle" fill="#ffffff">PostgreSQL</text></g><g transform="translate(369 236)"><rect width="52" height="28" rx="14" fill="#1c2639"/><text x="26.0" y="19" text-anchor="middle" fill="#ffffff">AWS</text></g><g transform="translate(429 236)"><rect width="101" height="28" rx="14" fill="#1c2639"/><text x="50.5" y="19" text-anchor="middle" fill="#ffffff">Terraform</text></g></g>
+  <g class="sans" font-size="13" font-weight="600"><g transform="translate(40 236)"><rect width="85" height="28" rx="14" fill="#f1e2db"/><text x="42.5" y="19" text-anchor="middle" fill="#9a5f50">Next.js</text></g><g transform="translate(133 236)"><rect width="110" height="28" rx="14" fill="#f1e2db"/><text x="55.0" y="19" text-anchor="middle" fill="#9a5f50">TypeScript</text></g><g transform="translate(251 236)"><rect width="110" height="28" rx="14" fill="#f1e2db"/><text x="55.0" y="19" text-anchor="middle" fill="#9a5f50">PostgreSQL</text></g><g transform="translate(369 236)"><rect width="52" height="28" rx="14" fill="#f1e2db"/><text x="26.0" y="19" text-anchor="middle" fill="#9a5f50">AWS</text></g><g transform="translate(429 236)"><rect width="101" height="28" rx="14" fill="#f1e2db"/><text x="50.5" y="19" text-anchor="middle" fill="#9a5f50">Terraform</text></g></g>
 </svg>
