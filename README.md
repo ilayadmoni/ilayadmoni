@@ -12,9 +12,8 @@
 
 ## 👋 About me
 
-I'm a **second-year B.Sc. Computer Science student** at The Academic College of Tel Aviv-Yafo, and I already work
-on **production systems**. I'm currently an **Application Support Engineer (Tier 3) at Elbit Systems**, where I'm
-developing an internal AI-powered team management system with React and Flask.
+I'm a **second-year B.Sc. Computer Science student** at The Academic College of Tel Aviv-Yafo with hands-on
+experience in **software development and production systems**.
 
 Before that I spent years on the infrastructure side as a System Administrator and in the IDF C4I Corps. That
 background shows up in what I build: software that is **secure by default, observable, and actually deployed**.
@@ -64,7 +63,6 @@ greeting cards, **live in production**. I migrated it from Supabase + Vercel to 
 
 | | Role | When |
 | :---: | --- | --- |
-| 🛰️ | **Application Support Engineer, Tier 3** · Elbit Systems<br/><sub>Developing an internal AI-powered team management system (React, Flask, integrated AI). Tier 3 production support, working closely with engineering teams on complex issues.</sub> | 07/2026 – Present |
 | 🖥️ | **System Administrator** · Elbit Systems<br/><sub>Wrote PowerShell and PowerCLI automation scripts to streamline operational processes. Managed VMware infrastructure and supported Linux/RHEL environments.</sub> | 08/2023 – 11/2025 |
 | 🎖️ | **IT & Network Support, Sergeant** · IDF C4I Corps<br/><sub>Ran network operations and kept 200+ endpoints operationally ready.</sub> | 2020 – 2023 |
 
