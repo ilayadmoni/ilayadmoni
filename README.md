@@ -12,8 +12,7 @@
 
 ### Computer Science student who builds, secures and ships production software.
 
-I've spent 5+ years in IT: three in network operations in the IDF and two as a System Administrator automating
-VMware and RHEL environments at Elbit Systems. Now I write the software side. My projects are backend-heavy,
+I've spent 5+ years in IT: first in network operations in the IDF, then in system administration and IT support engineering at Elbit Systems. Now I write the software side. My projects are backend-heavy,
 security-conscious and deployed. One runs in production on AWS; the other automates Linux servers with an LLM
 that is only allowed to *propose* actions.
 
@@ -21,7 +20,7 @@ that is only allowed to *propose* actions.
 | --- | --- |
 | 🎓 **Education** | B.Sc. Computer Science, 2nd year, The Academic College of Tel Aviv-Yafo (expected 2029) |
 | 🎯 **Looking for** | Student / junior roles: **Software Engineer · AI Engineer · Backend / Full-Stack · DevOps / Cloud** |
-| 💼 **Experience** | System Administrator, Elbit Systems (2023–2025) · IT & Network Support, IDF C4I Corps (2020–2023) |
+| 💼 **Experience** | IT Support Engineer, Elbit Systems (2025–2026) · System Administrator, Elbit Systems (2023–2024) · IT & Network Support, IDF C4I Corps (2020–2023) |
 | 🚀 **Shipped** | [HeartNote](https://github.com/ilayadmoni/HeartNote), live at [heartnote.co.il](https://www.heartnote.co.il) · [AutoOps](https://github.com/ilayadmoni/AutoOps), a Spring Boot + React automation platform |
 | 🗣️ **Languages** | Hebrew (native) · English (fluent) |
 
@@ -31,12 +30,13 @@ that is only allowed to *propose* actions.
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 <a href="https://github.com/ilayadmoni/AutoOps"><img src="assets/autoops-card.svg" alt="AutoOps: AI-assisted, secure Linux automation" width="100%"/></a>
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 <a href="https://github.com/ilayadmoni/HeartNote"><img src="assets/heartnote-card.svg" alt="HeartNote: production full-stack app on AWS" width="100%"/></a>
 </td>
+<td width="33%" valign="top"><img src="assets/genix-card.svg" alt="Genix support operations workspace with Aladin" width="100%"/></td>
 </tr>
 <tr>
 <td valign="top">
@@ -82,6 +82,20 @@ and share them as a link. The recipient needs no app or account.
 `Next.js 14` `TypeScript` `Prisma` `PostgreSQL` `AWS EC2 + RDS` `Terraform` `Docker` `GitHub Actions`
 
 </td>
+<td valign="top">
+
+**The problem:** during a shift handoff, operators need to see which incidents are open, who owns them, and which runbook to follow.
+
+**What I built:** a self-hosted support workspace that brings CRM incidents, team tasks, and searchable runbooks into one dashboard.
+
+- **Live operations:** Socket.IO delivers task updates to the Kanban board and shift dashboard. Operators can switch between English and Hebrew.
+- **Knowledge search:** a Python worker indexes uploaded documents. Aladin combines keyword and embedding search to find runbooks from an error message or a description of the issue.
+- **Reusable workflows:** operators can ask Aladin to draft a procedure, review its steps in React Flow, and save it for the next shift.
+- **Docker deployment:** Docker Compose runs five services: the Nginx frontend, Flask API, ingestion worker, MongoDB database, and SeaweedFS file store. Images can be exported for disconnected deployments.
+
+`React 19` `TypeScript` `Tailwind CSS` `Python / Flask` `Socket.IO` `MongoDB` `SeaweedFS` `Nginx` `Docker Compose`
+
+</td>
 </tr>
 </table>
 
@@ -96,7 +110,9 @@ and share them as a link. The recipient needs no app or account.
 
 ## Experience
 
-**System Administrator**, Elbit Systems · *08/2023 – 11/2025*
+**IT Support Engineer**, Elbit Systems · *2025–2026*
+
+**System Administrator**, Elbit Systems · *2023–2024*
 - Wrote PowerShell and PowerCLI automation scripts to streamline operational processes.
 - Managed VMware infrastructure and supported Linux / RHEL environments.
 
